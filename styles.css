@@ -362,16 +362,29 @@ footer {
 
     header {
         padding: 15px 5%;
+        flex-wrap: nowrap;
     }
 
     .logo h3 {
-        font-size: 16px;
+        font-size: 14px;
+        white-space: nowrap;
     }
 
     ul {
-        gap: 15px;
+        gap: 10px;
     }
+ul a {
+    font-size: 12px;
+}
 
+.hero-content h1 {
+    font-size: 28px;
+}
+
+.job-title {
+    font-size: 11px;
+    padding: 4px 8px;
+}
     .hero {
         flex-direction: column;
         padding: 40px 5%;
