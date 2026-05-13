@@ -354,3 +354,87 @@ footer {
     color: #333;
     text-decoration: none; 
 }
+
+@media (max-width: 768px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    header {
+        padding: 15px 5%;
+    }
+
+    .logo h3 {
+        font-size: 16px;
+    }
+
+    ul {
+        gap: 15px;
+    }
+
+    .hero {
+        flex-direction: column;
+        padding: 40px 5%;
+        text-align: center;
+    }
+
+    .hero-content {
+        width: 100%;
+    }
+
+    .hero-image {
+        width: 100%;
+    }
+
+    .hero-image img {
+        width: 100%;
+    }
+
+    .hero-btns {
+        justify-content: center;
+    }
+
+    .services-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .about {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-image img {
+        width: 100%;
+    }
+
+    .about-list {
+        text-align: left;
+    }
+
+    .portfolio-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .skills-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .stats {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .cta h2 {
+        font-size: 22px;
+    }
+
+    .cta-btns {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer {
+        flex-direction: column;
+        gap: 30px;
+    }
+}
